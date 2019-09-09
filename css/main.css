@@ -98,6 +98,47 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/***** HEADER AND FOOTER STYLES *****/
+header {
+  padding: 15px 0;
+}
+
+header .content-wrapper {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.header-divider {
+  background: #3a3a3a;
+  height: 1px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+header nav {
+  width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  font-size: 1.125em;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -263,4 +304,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
